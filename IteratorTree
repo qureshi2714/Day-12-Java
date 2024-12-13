@@ -1,0 +1,17 @@
+mport java.util.*;
+    public class Iterator {
+        public static void main(String args[]){
+            LinkedTreeSet<String> a = new LinkedTreeSet<>();
+            a.add("hello");
+            a.add("hello");
+            a.add("students");
+            a.add("rajesh");
+            a.add("students");
+            //printing iterator
+            Iterator itr=a.iterator();
+            while(itr.has Next())
+            {
+                System.out.println(itr.next()+" ");
+            }
+        }
+    }
